@@ -9,10 +9,10 @@ The goal of this notebook is to show a simple example of an analysis of the Tita
 
 This Notebook will show basic examples of:
 
-   Data Handling
-   Importing Data with Pandas
-   Cleaning Data
-   Exploring Data through Visualizations with Matplotlib
-   Data Analysis
-   Supervised Machine learning Techniques: + Logit Regression Model + Plotting results + Support Vector Machine (SVM) using  kernels +  Random Forest + Plotting              results
-   Valuation of the Analysis
+      Data Handling
+      Importing Data with Pandas
+      Cleaning Data
+      Exploring Data through Visualizations with Matplotlib
+      Data Analysis
+      Supervised Machine learning Techniques: + Logit Regression Model + Plotting results + Support Vector Machine (SVM) using  kernels +  Random Forest + Plotting             results
+      Valuation of the Analysis
