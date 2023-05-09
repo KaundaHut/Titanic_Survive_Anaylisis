@@ -1,18 +1,81 @@
-## Titanic_Survive_Anaylisis
- The sinking of the RMS Titanic is one of the most infamous shipwrecks in history. On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew. This sensational tragedy shocked the international community and led to better safety regulations for ships.
- 
-One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew. Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
+## Titanic Survivor Analysis
 
-In this contest, we ask you to complete the analysis of what sorts of people were likely to survive. In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
+This repository contains an analysis of the Titanic passenger data to identify factors that contributed to survival. The analysis is done in Python 3.8 using Pandas, NumPy, Matplotlib, and Seaborn libraries.
 
-The goal of this notebook is to show a simple example of an analysis of the Titanic disaster in Python using a full complement of PyData utilities. This is aimed for  looking to see an example of an analysis done with Python.
+### Dataset
 
-This Notebook will show basic examples of:
+The dataset used for this analysis contains information about the passengers aboard the Titanic, including their age, gender, class, and whether they survived or not. The dataset can be found in the data folder.
 
-      Data Handling
-      Importing Data with Pandas
-      Cleaning Data
-      Exploring Data through Visualizations with Matplotlib
-      Data Analysis
-      Supervised Machine learning Techniques: + Logit Regression Model + Plotting results + Support Vector Machine (SVM) using  kernels +  Random Forest + Plotting             results
-      Valuation of the Analysis
+### Getting Started
+
+1 Install the required packages: pip install -r requirements.txt
+
+2 Open the Jupyter notebook: jupyter notebook Titanic_Survivor_Analysis.ipynb
+
+The Jupyter notebook contains the main code for the analysis, including data exploration, feature engineering, data cleaning, and modeling. The notebook also includes visualizations to help understand the data and findings.
+
+### Project Structure
+The project has the following structure:
+
+├── data
+
+│   ├── train.csv
+
+│   ├── test.csv
+
+│   └── ...
+
+├── notebooks
+
+│   ├── Titanic_Survivor_Analysis.ipynb
+
+│   └── ...
+
+
+├── src
+
+│   ├── data.py
+
+│   ├── model.py
+
+│   ├── evaluate.py
+
+│   └── ...
+
+
+├── tests
+
+│   ├── test_data.py
+
+│   ├── test_model.py
+
+│   ├── test_evaluate.py
+
+│   └── ...
+
+
+├── .gitignore
+
+├── README.md
+
+├── requirements.txt
+
+└── Dockerfile
+
+data: Contains the dataset used for the analysis, including training and testing data.
+
+notebooks: Contains Jupyter notebooks for data exploration, feature engineering, data cleaning, and modeling.
+
+src: Contains the main application code, including data processing (data.py), modeling (model.py), and evaluation (evaluate.py).
+
+tests: Contains test cases for the application.
+
+README.md: This file!
+
+requirements.txt: List of Python dependencies required for the application.
+
+Dockerfile: Dockerfile for building a container image of the application.
+
+### Contributing
+
+If you would like to contribute to the project, feel free to submit a pull request or open an issue. Any feedback or suggestions are welcome!
